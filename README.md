@@ -113,4 +113,4 @@ UPTZ.exe [ОПЦИИ]
 ## Ссылки
 
 * Официальный сайт: [https://uptz.tech](https://uptz.tech)
-* Баг-трекер и обсуждения: [Issues](https://github.com/uptz/uptz/issues)
+* Баг-трекер и обсуждения: [Issues](https://github.com/in-j3ct-3d/uptz/issues)
