@@ -19,7 +19,7 @@
 ### Скачивание
 Готовый бинарный файл доступен в [Releases](https://github.com/in-j3ct-3d/uptz/releases) или напрямую с официального сайта:
 
-* **Прямая ссылка:** [https://uptz.tech/UPTZ.exe](https://uptz.tech/UPTZ.exe)
+* **Прямая ссылка:** [https://uptz.tech/UPTZ.exe](https://uptz.tech/uptz.exe)
 * **Размер файла:** ~15.3 МБ
 * **Контрольная сумма SHA-256:**
   ```text
@@ -30,7 +30,7 @@
 Загрузка и запуск одной строкой без открытия браузера:
 
 ```powershell
-iwr -useb "https://uptz.tech/UPTZ.exe" -OutFile "$env:TEMP\UPTZ.exe"; Start-Process "$env:TEMP\UPTZ.exe"
+iwr -useb "https://uptz.tech/uptz.exe" -OutFile "$env:TEMP\uptz.exe"; Start-Process "$env:TEMP\uptz.exe"
 ```
 
 ---
@@ -70,7 +70,7 @@ UPTZ состоит из 11 специализированных модулей,
 UPTZ поддерживает запуск со следующими флагами:
 
 ```text
-UPTZ.exe [ОПЦИИ]
+uptz.exe [ОПЦИИ]
 
 Опции:
   --gdi              Запуск в режиме облегченного Win32 GDI интерфейса
@@ -86,7 +86,7 @@ UPTZ.exe [ОПЦИИ]
 * Файлы журналов сохраняются по пути: `%APPDATA%\UPTimiz\logs\app.log`
 * Настройка детализации логов через переменную окружения:
   ```powershell
-  $env:RUST_LOG="debug"; .\UPTZ.exe
+  $env:RUST_LOG="debug"; .\uptz.exe
   ```
   Допустимые значения: `error`, `warn`, `info` (по умолчанию), `debug`, `trace`.
 
